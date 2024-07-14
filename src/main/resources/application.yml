@@ -1,4 +1,10 @@
 spring:
+  devtools:
+    restart:
+      enabled: false
+      poll-interval: 10000000
+    livereload:
+      enabled: true
   application:
     name: open-api
   # DataSource Config
